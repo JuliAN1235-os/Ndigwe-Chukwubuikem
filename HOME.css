@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+section{
+    text-align: center;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    text-indent: 6px;
+}
+
+header{
+    background-color: brown;
+    padding: 15px;
+}
