@@ -1,13 +1,13 @@
 body{
-     background-image: url("download 7.jpeg");
+    background-image: url("download 7.jpeg");
     background-size: cover;
     margin: 0;
 }
 
 section{
     text-align: center;
-    padding:150px;
-    font-weight:bold;
+    padding:250px;
+    
 }
 
 #tp{

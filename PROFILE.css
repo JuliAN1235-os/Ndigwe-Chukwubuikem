@@ -5,9 +5,19 @@ body{
 }
 
 section{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section div{
+    width: 45vw;
     padding:150px;
     font-weight:bold;
+}
+
+section img{
+    width:300px
 }
 
 #tp{

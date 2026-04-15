@@ -5,9 +5,14 @@ body{
 }
 
 section{
-    text-align: center;
-    padding:150px;
-    font-weight:bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section img{
+    width:300px
 }
 
 #tp{
@@ -30,4 +35,3 @@ header{
     background-color: brown;
     padding: 15px;
 }
-
