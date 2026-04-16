@@ -1,0 +1,148 @@
+/* GLOBAL */
+*{
+    font-family: Georgia, "Times New Roman", serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: bisque;
+    color:#222;
+}
+
+h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+header{
+    background-color:black;
+    padding:18px 40px;
+}
+
+#tp{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+#tp a{
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    font-size:16px;
+    letter-spacing:0.5px;
+    transition:0.3s;
+}
+
+#tp a:hover{
+    color:darkgrey;
+}
+
+/* FOOTER */
+#cn{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    background:gray;
+    padding:20px;
+    margin-top:60px;
+    font-size:14px;
+}
+
+#cn li{
+    transition:0.3s;
+    cursor:pointer;
+}
+
+#cn li:hover{
+    color:white;
+    transform:translateY(-3px);
+}
+
+/* HOME */
+.home{
+    text-align:center;
+    padding:140px 20px;
+}
+
+.home p{
+    font-size:20px;
+}
+
+/* PROFILE */
+.profile{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:80px 40px;
+}
+
+.profile img{
+    width:320px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.profile img:hover{
+    transform:scale(1.05);
+}
+
+.profile-text{
+    width:420px;
+}
+
+/* PROJECTS */
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:60px;
+}
+
+.projects img{
+    width:260px;
+    border-radius:8px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.projects img:hover{
+    transform:scale(1.05);
+}
+
+/* CONTACT */
+.contact{
+    padding:80px 20px;
+    text-align:center;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:320px;
+    margin:auto;
+    gap:12px;
+}
+
+label{
+    text-align:left;
+    font-weight:600;
+    font-size:14px;
+}
